@@ -60,13 +60,13 @@
           <a class="navbar-item" href="$ctx.page.link()" :text="$ctx.page.title"></a>
         </ctx>
         <a
-          href="https://github.com/ziglang/zig"
+          href="https://codeberg.org/ziglang/zig"
           class="navbar-item external-link external-link-light"
           :text="$i18n.get('source')"
         ></a>
         <a
-          href="https://github.com/ziglang/zig/wiki/Community"
-          class="navbar-item external-link external-link-light"
+          href="/community"
+          class="navbar-item"
           :text="$i18n.get('community')"
         ></a>
         <ctx page="$site.page('zsf')">
@@ -76,7 +76,7 @@
             :text="$ctx.page.custom.get('mobile_menu_title')"
           ></a>
         </ctx>
-        <ctx page="$site.locale('en-US').page('devlog/2025')">
+        <ctx page="$site.locale('en-US').page('devlog/2026')">
           <a class="navbar-item" href="$ctx.page.link()" :text="$ctx.page.title"></a>
         </ctx>
       </div>
@@ -96,17 +96,17 @@
           <ctx page="$site.page('zsf')">
             <a class="navbar-item" href="$ctx.page.link()" :text="$ctx.page.title"></a>
           </ctx>
-          <ctx page="$site.locale('en-US').page('devlog/2025')">
+          <ctx page="$site.locale('en-US').page('devlog/2026')">
             <a class="navbar-item" href="$ctx.page.link()" :text="$ctx.page.title"></a>
           </ctx>
           <a
-            href="https://github.com/ziglang/zig"
+            href="https://codeberg.org/ziglang/zig"
             class="navbar-item external-link external-link-light"
             :text="$i18n.get('source')"
           ></a>
           <a
-            href="https://github.com/ziglang/zig/wiki/Community"
-            class="navbar-item external-link external-link-light"
+            href="/community"
+            class="navbar-item"
             :text="$i18n.get('community')"
           ></a>
         </div>
